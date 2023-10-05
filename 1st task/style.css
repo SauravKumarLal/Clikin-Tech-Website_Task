@@ -1,0 +1,104 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+body, html {
+  font-family: "Satoshi", sans-serif;
+  background-color: #212428;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.head1{
+    padding: 0 96px 0 96px;
+}
+
+/* Change text color of the "Home" menu item to white */
+a.nav-link.px-2.link-secondary {
+  color: #ffffff;
+}
+
+/* Change text color of the rest of the list items to grey */
+a.nav-link.px-2:not(.link-secondary) {
+  color: #e6e8ea;
+}
+
+header ul li {
+  padding: 0 46px 0 0;
+}
+
+header img {
+  width: auto;
+  height: 40px;
+}
+
+.btn-primary {
+  background-color: #d9af62;
+  border-color: #d9af62;
+  transition: none;
+  width: 221px;
+  height: auto;
+  pointer-events: none;
+}
+
+.btn-primary:hover {
+  background-color: #d9af62;
+  color: #fff;
+  border-color: #d9af62;
+}
+
+.display-5 {
+  /* font-family: Satoshi; */
+  color: red;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  line-height: 54px;
+  padding-bottom: 24px;
+}
+
+.display-6 {
+  /* font-family: Satoshi; */
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 48px;
+}
+
+.color-mid {
+  color: #d9af62;
+}
+
+.btn-outline-secondary {
+  border-color: #d9af62;
+  border-width: 2px;
+  color: #d9af62;
+  padding: 16px;
+  width: 221px;
+  height: auto;
+  gap: 8px;
+  pointer-events: none;
+}
+
+
+.docu{
+    background-image: url(images/bg2.svg), url(images/bg1.svg);
+    /* width: 200px;
+    height: 200px; */
+    background-size: 200px, 200px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 620px 667px, 0 127px;
+    padding-bottom: 100px;
+}
+
+
+
+.d-block{
+    width: 700px;
+    height: 800px;
+    left: 796px;
+    padding-right: 0;
+    margin-right: 0;
+}
