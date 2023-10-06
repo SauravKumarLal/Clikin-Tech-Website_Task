@@ -2,22 +2,22 @@
 
 body, html {
   font-family: "Satoshi", sans-serif;
-  background-color: #212428;
   /* margin: 0;
   padding: 0; */
 }
 
 .head1{
+    background-color: #212428;
     padding: 0 96px 0 96px;
-}
-
-/* Change text color of the "Home" menu item to white */
-a.nav-link.px-2.link-secondary {
-  color: #ffffff;
-}
-
-/* Change text color of the rest of the list items to grey */
-a.nav-link.px-2:not(.link-secondary) {
+  }
+  
+  /* Change text color of the "Home" menu item to white */
+  a.nav-link.px-2.link-secondary {
+    color: #ffffff;
+  }
+  
+  /* Change text color of the rest of the list items to grey */
+  a.nav-link.px-2:not(.link-secondary) {
   color: #e6e8ea;
 }
 
@@ -84,13 +84,15 @@ header img {
 
 
 .docu{
+    background-color: #212428;
     background-image: url(images/bg2.svg), url(images/bg1.svg);
     /* width: 200px;
     height: 200px; */
     background-size: 200px, 200px;
     background-repeat: no-repeat, no-repeat;
-    background-position: 620px 667px, 0 127px;
-    padding-bottom: 100px;
+    background-position: 620px 627px, 0 147px;
+    padding-bottom: 73px;
+    padding-left: 96px;
 }
 
 
@@ -101,4 +103,34 @@ header img {
     left: 796px;
     padding-right: 0;
     margin-right: 0;
+    
+}
+
+footer{
+  border-bottom-color:  rgba(91, 74, 41, 0.50);
+  /* width: 1248px; */
+  /* height: 1px; */
+}
+
+h5{
+  color: var(--neautral-title, #05162E);
+  /* font-family: Satoshi; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer img{
+  padding-bottom: 16px;
+}
+
+.footer-image{
+  /* padding-top: 22px; */
+  margin-right: 16px;
+  width: 38px;
+}
+
+.border-bottom{
+  color: #d9af62;
+  /* width: 2px; */
 }
