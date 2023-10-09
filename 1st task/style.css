@@ -103,6 +103,25 @@ header img {
   margin-right: 0;
 }
 
+/*ABOUT US*/
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.icons {
+  display: flex;
+  width: 1248px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 95px;
+}
+
+/*SERVICES*/
+
 .services {
   background-color: #212428;
   padding: 80px 96px 80px 96px;
@@ -146,7 +165,7 @@ header img {
   padding: 80px 96px 80px 96px;
 }
 
-.fff{
+.fff {
   padding: 0 100px;
 }
 
@@ -230,14 +249,36 @@ header img {
   gap: 8px;
   border: none;
   border-radius: 8px;
-  color: #05162E;
+  color: #05162e;
   background-color: transparent;
-
 }
 
+/* Contact Form   */
+.contact-form {
+  background-color: #212428;
+}
 
+.contact-form-1 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 8px;
+  /* background: var(--foundation-blue-blue-50, #E6E8EA); */
+}
 
+.form1 {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  flex-direction: column;
+  width: 580px;
+}
 
+/*FOOTER*/
 footer {
   border-bottom-color: rgba(91, 74, 41, 0.5);
   /* width: 1248px; */
