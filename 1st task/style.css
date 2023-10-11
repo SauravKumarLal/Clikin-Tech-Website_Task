@@ -3,8 +3,10 @@
 body,
 html {
   font-family: "Satoshi", sans-serif;
-  /* margin: 0;
-  padding: 0; */
+}
+
+.container-fluid { 
+  padding: 0; 
 }
 
 .head1 {
@@ -111,6 +113,7 @@ header img {
   justify-content: center;
   align-items: center;
   gap: 48px;
+  overflow: hidden;
 }
 
 .about-feature-1-1 {
@@ -120,6 +123,7 @@ header img {
   align-items: flex-start;
   gap: 48px;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .about-feature-2-1 {
@@ -133,6 +137,7 @@ header img {
   flex-shrink: 0;
   border-radius: 16px;
   background: var(--foundation-yellow-yellow-500, #d9af62);
+  overflow: hidden;
 }
 
 .about-feature-2-2 {
